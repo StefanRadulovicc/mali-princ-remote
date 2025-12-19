@@ -1,0 +1,213 @@
+
+body {
+    background-color: #efefef;
+    font-family: 'Calibri', 'Arial', sans-serif; 
+    font-size: 14px;
+    margin: 0;
+    padding-top: 60px;
+}
+
+nav {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #ffffff; 
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav .logo {
+    height: 40px; 
+    width: auto;
+    width: 80px; 
+    float: left;
+    margin-left: 10px;
+}
+
+nav .desno {
+    float: right;
+    font-size: 10pt;
+    margin-top: 12pt;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none; 
+    color: black;
+    padding: 5px;
+}
+
+nav .separator {
+    padding: 4px;
+    color: gray;
+}
+
+
+h1 {
+    font-size: 5vw;
+    font-family: 'Indie Flower', cursive; 
+    letter-spacing: 0.5cm;
+    text-align: center;
+    line-height: 2cm;
+    text-shadow: -2px 2px 2px #000; 
+}
+
+.sareni-naslov span:nth-child(1) { color: rgb(255, 153, 0); }
+.sareni-naslov span:nth-child(2) { color: rgb(255, 0, 255); }
+.sareni-naslov span:nth-child(3) { color: rgb(0, 255, 85); }
+.sareni-naslov span:nth-child(4) { color: rgb(81, 0, 128); }
+.sareni-naslov span:nth-child(5) { color: rgb(217, 255, 0); }
+.sareni-naslov span:nth-child(6) { color: rgb(173, 118, 0); }
+.sareni-naslov span:nth-child(7) { color: rgb(198, 130, 238); }
+.sareni-naslov span:nth-child(8) { color: rgb(105, 255, 150); }
+.sareni-naslov span:nth-child(9) { color: rgb(42, 106, 165); }
+
+
+h2 {
+    font-size: 1.5em; 
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    text-align: justify; 
+    text-indent: 0.4cm; 
+}
+
+q {
+    font-size: 1.0em;
+    text-transform: uppercase; 
+    font-style: italic;
+}
+
+li {
+    font-weight: 500; 
+}
+
+.centriranje {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px; 
+    max-width: 100%; 
+}
+table {
+    width: 100%;
+    border: 2px solid green;
+    border-collapse: separate; 
+    border-spacing: 5px;
+     margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    text-align: center;
+    border: 3px dotted #ffd700; 
+    border-radius: 20px;
+    padding: 10px;
+}
+
+table img {
+    width: 50%; 
+}
+
+figure {
+    width: 40%;
+    float: left; 
+    margin: 2%;
+    background: #fff;
+    padding: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+figure img {
+    width: 100%; 
+}
+
+figcaption {
+    text-align: center;
+    font-style: italic;
+}
+
+
+
+.social-icons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    transition: border-radius 0.3s; 
+}
+
+.social:hover {
+    border-radius: 34px; 
+    background-color: rgba(0,0,0,0.1); 
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 50px;
+}
+
+
+fieldset {
+    border: 2px solid #800080; 
+    border-radius: 20px;     
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #ffffff;
+}
+
+legend {
+    padding: 0 10px;
+    font-weight: bold;
+    color: #333;
+    font-size: 1.5em;
+}
+
+.red {
+    display: flex;
+    gap: 10px;
+}
+
+.red input {
+    flex: 1;
+}
+
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+button {
+    align-self: flex-start;
+    background-color: #efefef;
+    border: 1px solid #000;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s; 
+}
+
+button:hover {
+    background-color: #800080;
+    color: white;
+}
